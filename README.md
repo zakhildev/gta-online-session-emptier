@@ -27,7 +27,7 @@ Check whether the MD5 checksums of the `.exe` and `.dll` files located inside th
 
 ## FAQ
 
-- Q: Is it bannable?
+- Q: Is it bannable? </br>
   A: No. (it works exactly the same as Resoure Monitor method)
 
 ## Bug reporting
