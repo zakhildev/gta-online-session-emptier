@@ -32,7 +32,7 @@ Check whether the MD5 checksums of the `.exe` and `.dll` files located inside th
 
 ## Bug reporting
 
-If you encounter any bug, please report it by opening a new issue. (Provide your system version and emptier release tag)
+If you encounter any bugs, please report them by opening a new issue. (Provide your system version and emptier release tag)
 
 ## Authors
 
