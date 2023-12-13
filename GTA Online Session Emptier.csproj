@@ -16,8 +16,8 @@
     <IsPublishable>False</IsPublishable>
     <PackageIcon>icon.png</PackageIcon>
     <PackageReadmeFile>LICENSE.md</PackageReadmeFile>
-    <AssemblyVersion>1.0.0</AssemblyVersion>
-    <FileVersion>1.0.0</FileVersion>
+    <AssemblyVersion>1.0.1</AssemblyVersion>
+    <FileVersion>1.0.1</FileVersion>
     <NeutralLanguage>en</NeutralLanguage>
     <EnableNETAnalyzers>True</EnableNETAnalyzers>
     <AnalysisLevel>none</AnalysisLevel>
