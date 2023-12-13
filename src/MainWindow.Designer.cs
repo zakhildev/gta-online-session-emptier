@@ -40,76 +40,47 @@
             // 
             // stateLabel
             // 
-            stateLabel.AutoSize = true;
-            stateLabel.Location = new Point(12, 9);
+            resources.ApplyResources(stateLabel, "stateLabel");
             stateLabel.Name = "stateLabel";
-            stateLabel.Size = new Size(153, 15);
-            stateLabel.TabIndex = 0;
-            stateLabel.Text = "Looking for GTA 5 process...\r\n";
             // 
             // emptyBtn
             // 
-            emptyBtn.Enabled = false;
-            emptyBtn.Location = new Point(12, 113);
+            resources.ApplyResources(emptyBtn, "emptyBtn");
             emptyBtn.Name = "emptyBtn";
-            emptyBtn.Size = new Size(283, 23);
-            emptyBtn.TabIndex = 1;
-            emptyBtn.Text = "Empty session";
             emptyBtn.UseVisualStyleBackColor = true;
             emptyBtn.Click += EmptyBtn_Click;
             // 
             // label2
             // 
-            label2.AutoSize = true;
-            label2.Location = new Point(12, 34);
+            resources.ApplyResources(label2, "label2");
             label2.Name = "label2";
-            label2.Size = new Size(83, 15);
-            label2.TabIndex = 2;
-            label2.Text = "Process name:";
             // 
             // label3
             // 
-            label3.AutoSize = true;
-            label3.Location = new Point(13, 59);
+            resources.ApplyResources(label3, "label3");
             label3.Name = "label3";
-            label3.Size = new Size(28, 15);
-            label3.TabIndex = 3;
-            label3.Text = "PID:";
             // 
             // procNameLabel
             // 
-            procNameLabel.AutoSize = true;
-            procNameLabel.Location = new Point(101, 34);
+            resources.ApplyResources(procNameLabel, "procNameLabel");
             procNameLabel.Name = "procNameLabel";
-            procNameLabel.Size = new Size(29, 15);
-            procNameLabel.TabIndex = 4;
-            procNameLabel.Text = "N/A";
             // 
             // procPidLabel
             // 
-            procPidLabel.AutoSize = true;
-            procPidLabel.Location = new Point(101, 59);
+            resources.ApplyResources(procPidLabel, "procPidLabel");
             procPidLabel.Name = "procPidLabel";
-            procPidLabel.Size = new Size(29, 15);
-            procPidLabel.TabIndex = 5;
-            procPidLabel.Text = "N/A";
             // 
             // scanBtn
             // 
-            scanBtn.Enabled = false;
-            scanBtn.Location = new Point(13, 84);
+            resources.ApplyResources(scanBtn, "scanBtn");
             scanBtn.Name = "scanBtn";
-            scanBtn.Size = new Size(282, 23);
-            scanBtn.TabIndex = 6;
-            scanBtn.Text = "Scanning...";
             scanBtn.UseVisualStyleBackColor = true;
             scanBtn.Click += ScanBtn_Click;
             // 
             // MainWindow
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
+            resources.ApplyResources(this, "$this");
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(307, 148);
             Controls.Add(scanBtn);
             Controls.Add(procPidLabel);
             Controls.Add(procNameLabel);
@@ -117,12 +88,11 @@
             Controls.Add(label2);
             Controls.Add(emptyBtn);
             Controls.Add(stateLabel);
-            Icon = (Icon)resources.GetObject("$this.Icon");
+            FormBorderStyle = FormBorderStyle.FixedSingle;
             MaximizeBox = false;
             MinimizeBox = false;
             Name = "MainWindow";
             SizeGripStyle = SizeGripStyle.Hide;
-            Text = "GTA Online Session Emptier by Zakhil";
             Load += MainWindow_Load;
             ResumeLayout(false);
             PerformLayout();
